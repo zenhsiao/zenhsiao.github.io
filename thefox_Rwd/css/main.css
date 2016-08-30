@@ -10,9 +10,11 @@
 .logo{
     margin: 0 auto;
     float: left;
+    width: 20%;
 }
 #nav{
 	float: right;
+	width: 80%;
 }
 #nav li{
 	float: left;
@@ -45,6 +47,10 @@
 	width: 30px;
 	right: 10px;
 }
+#menu-trigger img,#banner img{
+	width: 100%;
+	height: auto;
+}
 #nav.open{
 	position: fixed;
 	display: block;
@@ -62,21 +68,18 @@
 	float:none;
 }
 
-#banner {
-	width: 100%;
-	margin: 0 auto;
-}
 
-#banner h1,.middle{
+
+#banner .left,.middle,.right{
 	float: left;
 }
-
-#banner h1{
-
-	display: block;
-	margin: auto;
+#banner .left,.right{
+	float: left;
+	width: 30%;
 }
-
+#banner .middle{
+	width: 40%;
+}
 .feature{
 	float: left;
 	width: 100%;
@@ -84,7 +87,10 @@
 .title img,h3{
    float: left;
 }
-
+.col-3 img,.col-6 img,.col-12 img{
+	width: 100%;
+	height: auto;
+}
 
 @media (max-width: 480px) {
 	#nav{
@@ -106,5 +112,52 @@
     .feature{
     	width: 33.333333%;
     }
+    .col-3{
+
+	width: 25%;
+	float: left;
+	height: auto;
+	
+}
+
+.filter {
+  list-style-type: none;
+  
+}
+.filter li {
+  display: inline;
+
+ 
+}
+
+.filter ul{
+	text-align: center;
+}
+
+.filter a {
+  color: #000;
+  text-decoration: none;
+  padding: 0 10px;
+
+}
+
+
+.col-3 img,.col-6 img,.col-12 img{
+	width: 100%;
+}
+
+.col-6{
+	width: 50%;
+	float: left;
+	height: auto;
+}
+
+.col-12{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+
 }
 
