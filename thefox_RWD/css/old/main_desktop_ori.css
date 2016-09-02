@@ -1,7 +1,7 @@
 .container {
 	max-width: 1180px;
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
 	
 }
 .clearfix{
@@ -16,39 +16,8 @@
 #nav{
 	float:right;
 	width: 80%;
-	display: none;
-}
-#nav.open{
-	position: fixed;
-	display: block;
-	width: 100vw;
-	height: 100vh;
-	text-align: center;
-	background-color: #ccc;
 }
 
-#nav.open ul{
-	padding: 30%;
-}
-
-#nav.open li{
-	float:none;
-}
-.nav_trigger{
-	position: fixed;
-	right: 10px;
-	width: 50px;
-}
-
-.nav_trigger img,.filter_trigger img{
-	width: 100%;
-	height: auto;
-}
-.filter_trigger{
-
-	width: 50px;
-	margin: 0 auto;
-}
 #nav li{
 	float:left;	
 }
@@ -81,11 +50,10 @@ img{
     box-sizing: border-box;
 
 	float:left;
-	width: 100%;
+	width: 33.33333333%;
 	padding-right: 40px;
 	padding-bottom: 40px;
 }
-
 
 .feature .title > img, .feature .title > h3{
 	float: left;
@@ -219,7 +187,6 @@ border-radius: 4px;
 
 .filter {
   list-style-type: none;
-  display: none;
   
 }
 .filter li {
@@ -243,7 +210,7 @@ border-radius: 4px;
 
 .col-3{
 
-	width: 100%;
+	width: 25%;
 	float: left;
 	height: auto;
 	
@@ -254,7 +221,7 @@ border-radius: 4px;
 }
 
 .col-6{
-	width: 100%;
+	width: 50%;
 	float: left;
 	height: auto;
 }
@@ -297,4 +264,3 @@ button{
 	margin: 0;
    text-align: center;
 }
-

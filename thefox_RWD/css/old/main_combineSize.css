@@ -298,3 +298,50 @@ button{
    text-align: center;
 }
 
+@media(min-width: 840px)  {
+  .feature{
+	width: 33.33333333%;
+   }
+  .col-3{
+	width: 25%;	
+   }
+  .col-6{
+	width: 50%;
+   }
+   #nav{
+	display: block;
+   }
+   .nav_trigger{
+	display: none;
+   }
+   .filter{
+	display: block;
+   }
+   .filter_trigger{
+	display: none;
+   }
+
+}
+@media(min-width: 480px)and (max-width: 839px) {
+  .feature{
+	width: 50%;
+   }
+  .col-3{
+	width: 25%;	
+   }
+  .col-6{
+	width: 50%;
+   }
+   #nav{
+	display: block;
+   }
+   .nav_trigger{
+	display: none;
+   }
+   .filter{
+	display: block;
+   }
+   .filter_trigger{
+	display: none;
+   }
+}

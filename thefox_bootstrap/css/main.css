@@ -1,0 +1,65 @@
+.features h3 {
+	display: inline;
+}
+
+.portfolios,.services .col-md-3 img{
+	width: 100%;
+	height: auto;
+}
+.portfolios .col-md-3,.portfolios .col-md-6,.portfolios .col-md-12 {
+	padding: 0;
+}
+
+.left ,.right{
+	width: 30%;
+	font-size: 120px;
+
+}
+.middle{
+	width: 40%;
+	background-color:rgba(0,23,31,0.5);
+}
+
+#banner{
+	height: 100vh;
+	background-color: #003459;
+	color:#fff;
+}
+#banner .container{
+    position: relative;
+	top: 40%;
+	width: 100%;
+	background-color:rgba(0,23,31,0.3);
+}
+
+.portfolio{
+	background-color: #009;
+}
+
+.description{
+	color:#fff;
+}
+
+.load button, .purchase button{
+	margin:20px auto;
+}
+
+.purchase{
+	background-color: #006;
+	color:#fff;
+}
+
+.skills .col-md-12{
+	border: solid;
+	border-color: #666;
+	margin-top: 10px;
+
+}
+.intro .col-md-6{
+	padding: 15px;
+}
+
+.numbers{
+	background-color: red;
+	color:#fff;
+}
